@@ -1,0 +1,6 @@
+﻿services:
+  myblog:
+    image: myblog
+    build:
+      context: .
+      dockerfile: myblog/Dockerfile
